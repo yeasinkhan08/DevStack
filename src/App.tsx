@@ -1,5 +1,11 @@
+import Navber from "./components/Navber/Navber";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Navber />
+    </>
+  );
 }
 
 export default App;
