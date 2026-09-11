@@ -19,10 +19,10 @@ const Banner = () => {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <button className="w-full rounded-md bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 px-5 py-3 text-sm font-semibold text-white sm:w-auto">
+            <button className="w-full rounded-md bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:w-auto">
               Explore Technologies
             </button>
-            <button className="w-full rounded-md border border-slate-200 px-6 py-3 text-sm font-medium text-slate-600 sm:w-auto">
+            <button className="w-full rounded-md border border-slate-200 px-6 py-3 text-sm font-medium text-slate-600 transition-all duration-300 hover:border-pink-500 hover:-translate-y-1 text-pink-500 hover:shadow-md sm:w-auto">
               Learn More
             </button>
           </div>
