@@ -3,6 +3,8 @@ import Banner from "./components/Banner/Banner";
 import Navber from "./components/Navber/Navber";
 import Technologies from "./components/Technologies/Technologies";
 import type { TechnologyType } from "./Type";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const technologiesPromise = async (): Promise<TechnologyType[]> => {
   const res = await fetch("/data.json");
