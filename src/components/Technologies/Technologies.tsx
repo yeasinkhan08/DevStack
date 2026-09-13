@@ -57,7 +57,7 @@ export default function Technologies({
       <div className="mx-auto max-w-[1250px]">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-slate-800 md:text-4xl">
-            Explore <span className="brand-gradient-text">Technologies</span>
+            Explore <span className="text-pink-500">Technologies</span>
           </h2>
 
           <p className="mt-2 text-sm text-slate-500 md:text-base">

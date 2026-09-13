@@ -21,19 +21,19 @@ const Navber = () => {
         <div className="hidden md:block text-center text-gray-500 ">
           <ul className="flex gap-4">
             <li className="hover:text-pink-500">
-              <a href="#"></a>Home
+              <a href="#Home"></a>Home
             </li>
             <li className="hover:text-pink-500">
-              <a href="#"></a>Technologies
+              <a href="#Technologies"></a>Technologies
             </li>
             <li className="hover:text-pink-500">
-              <a href="#"></a>Projects
+              <a href="#Projects"></a>Projects
             </li>
             <li className="hover:text-pink-500">
-              <a href="#"></a>About
+              <a href="#About"></a>About
             </li>
             <li className="hover:text-pink-500">
-              <a href="#"></a>Contact
+              <a href="#Contact"></a>Contact
             </li>
           </ul>
         </div>
@@ -48,23 +48,23 @@ const Navber = () => {
           <div className="md:hidden mt-4">
             <ul className="flex flex-col gap-4 text-gray-500">
               <li>
-                <a href="#">Home</a>
+                <a href="#Home">Home</a>
               </li>
 
               <li>
-                <a href="#">Technologies</a>
+                <a href="#Technologies">Technologies</a>
               </li>
 
               <li>
-                <a href="#">Projects</a>
+                <a href="#Projects">Projects</a>
               </li>
 
               <li>
-                <a href="#">About</a>
+                <a href="#About">About</a>
               </li>
 
               <li>
-                <a href="#">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
 
