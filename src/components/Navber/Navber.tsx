@@ -21,13 +21,13 @@ const Navber = () => {
         <div className="hidden md:block text-center text-gray-500 ">
           <ul className="flex gap-4">
             <li className="hover:text-pink-500">
-              <a href="#Home"></a>Home
+              <a href="#Home">Home</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#Technologies"></a>Technologies
+              <a href="#Technologies">Technologies</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#Projects"></a>Projects
+              <a href="#Projects">Projects</a>
             </li>
             <li className="hover:text-pink-500">
               <a href="#About"></a>About

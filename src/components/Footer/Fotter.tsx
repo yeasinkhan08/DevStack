@@ -1,3 +1,6 @@
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="border-t border-slate-200 bg-slate-950 text-slate-300">
@@ -10,29 +13,29 @@ const Footer = () => {
             modern technologies in one place.
           </p>
 
-          <div className="mt-5 flex gap-4">
+          <div className="mt-5 flex gap-3">
             <a
               href="#"
-              className="text-sm hover:text-white"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700"
               aria-label="GitHub"
             >
-              GitHub
+              <FaGithub />
             </a>
 
             <a
               href="#"
-              className="text-sm hover:text-white"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700"
               aria-label="Twitter"
             >
-              Twitter
+              <FaTwitter />
             </a>
 
             <a
               href="#"
-              className="text-sm hover:text-white"
+              className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700"
               aria-label="LinkedIn"
             >
-              LinkedIn
+              <FaLinkedinIn />
             </a>
           </div>
         </div>
