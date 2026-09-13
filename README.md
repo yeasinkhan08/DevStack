@@ -1,32 +1,24 @@
-# React + TypeScript + Vite
+Name of your project:DevStack
+A little description:it is besically a webpage that here anyone can select the technologies
+Technology that i use:VS code,Ract.js,talwind,React-Tastify,json,vite
+3 features about my project:
+1.Here anyone can select there favorite technologies,and if they want to delete that ,they esily can
+2.fully Responsive
+3.Notify all the time when add or remove
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+What is JSX, and why is it used in React?
+-it is javascriptXML.we can write js/ts in html
+What is the difference between props and state?
+Props=Data passed from parent component to child component
+state=Data manage inside the component.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+What does the useState hook do, and where did you use it in this project?
+=Update/change the data
+What does the useEffect hook do, and why did you need it to load the JSON data?
+=useEffect is used to perform side effects in a React component, such as fetching data from an API or JSON file.
+Why does every item in a .map() list need a unique key prop?
+=For identify each item in a list
+What is conditional rendering? Show one place you used it (example: the empty stack message).
+=Conditional rendering means showing different UI depending on a condition.
+How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+=Parent → Child: Use props.
