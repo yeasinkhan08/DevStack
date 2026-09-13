@@ -30,22 +30,25 @@ const Navber = () => {
               <a href="#Projects">Projects</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#About"></a>About
+              <a href="#About">About</a>
             </li>
             <li className="hover:text-pink-500">
-              <a href="#Contact"></a>Contact
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
-        <div className="hidden md:flex gap-4 ">
-          <button className="text-gray-600 hover:text-pink-500">Sign in</button>
-          <button className="bg-pink-600 text-white px-5 py-2 rounded-full hover:bg-pink-700">
+
+        <div className="flex items-center gap-2 md:gap-4">
+          <button className="text-sm text-gray-600 hover:text-pink-500 md:text-base">
+            Sign in
+          </button>
+          <button className="rounded-full bg-pink-600 px-3 py-1.5 text-sm text-white hover:bg-pink-700 md:px-5 md:py-2 md:text-base">
             Sign Up
           </button>
         </div>
 
         {menuOpen && (
-          <div className="md:hidden mt-4">
+          <div className="md:hidden mt-4 w-full">
             <ul className="flex flex-col gap-4 text-gray-500">
               <li>
                 <a href="#Home">Home</a>
@@ -67,14 +70,6 @@ const Navber = () => {
                 <a href="#Contact">Contact</a>
               </li>
             </ul>
-
-            <div className="flex gap-4 mt-4">
-              <button className="text-gray-600">Sign in</button>
-
-              <button className="bg-pink-600 text-white px-5 py-2 rounded-full">
-                Sign Up
-              </button>
-            </div>
           </div>
         )}
       </div>
