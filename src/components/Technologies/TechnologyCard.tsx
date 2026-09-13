@@ -1,7 +1,7 @@
 import type { TechnologyType } from "../../Type";
 import { FaStar } from "react-icons/fa";
 
-interface TechnologyCardProps {
+export interface TechnologyCardProps {
   technology: TechnologyType;
 }
 
