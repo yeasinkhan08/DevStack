@@ -10,6 +10,9 @@ const technologiesPromise = async (): Promise<TechnologyType[]> => {
   return data;
 };
 function App() {
+  const [selectedTechnologies, setSelectedTechnologies] = useState<
+    TechnologyType[]
+  >([]);
   return (
     <>
       <Suspense fallback={<h2>Loading...</h2>}>
@@ -17,6 +20,8 @@ function App() {
         <Banner />
         <Technologies
           technologiesPromise={technologiesPromise()}
+          selectedTechnologies={selectedTechnologies}
+          setSelectedTechnologies={setSelectedTechnologies}
         ></Technologies>
       </Suspense>
     </>
