@@ -6,8 +6,8 @@ const Navber = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav>
-      <div className="px-6 py-4 flex gap-4 justify-between container mx-auto items-center">
+    <nav className="sticky top-0 z-50 bg-white">
+      <div className="mx-auto flex max-w-[1250px] items-center justify-between px-5 py-4">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-2xl"

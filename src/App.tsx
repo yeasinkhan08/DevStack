@@ -26,6 +26,7 @@ function App() {
           setSelectedTechnologies={setSelectedTechnologies}
         ></Technologies>
       </Suspense>
+      <ToastContainer position='bottomiright 'autoclose={2000}/>
     </>
   );
 }
